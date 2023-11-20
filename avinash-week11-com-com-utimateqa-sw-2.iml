@@ -19,7 +19,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/jars/junit-4.13.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/jars/selenium-server-4.15.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -28,7 +28,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/jars/selenium-server-4.15.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/jars/junit-4.13.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
