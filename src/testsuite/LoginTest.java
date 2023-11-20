@@ -29,6 +29,7 @@ public class LoginTest extends BaseTest {
         driver.findElement(By.id("user[password]")).sendKeys("123@gmail.com");
         driver.findElement(By.xpath("//button[contains(text(),'Sign in')]")).click();
         String expected = "Invalid email or password.";
+        // manually quickly enter captcha to get to error page
         String actual = driver.findElement(By.xpath("//li[contains(text(),'Invalid email or password.')]")).getText();
         Assert.assertEquals("Correct Message not Displayed",expected,actual);
     }
