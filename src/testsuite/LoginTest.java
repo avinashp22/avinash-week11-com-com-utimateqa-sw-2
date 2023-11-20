@@ -1,3 +1,20 @@
+/**
+ *2. Create the package ‘testsuite’ and create the following class inside the ‘testsuite’ package.
+ * 1. LoginTest
+ * 3. Write down the following test into ‘LoginTest’ class
+ * 1. userShouldNavigateToLoginPageSuccessfully * click on the ‘Sign In’ link
+ * * Verify the text ‘Welcome Back!’
+ * 2. verifyTheErrorMessage
+ * * click on the ‘Sign In’ link
+ * * Enter invalid username
+ * * Enter invalid password
+ * * Click on Login button
+ * * Verify the error message ‘Invalid email or password.’
+ */
+
+
+
+
 package testsuite;
 
 import browserfactory.BaseTest;
